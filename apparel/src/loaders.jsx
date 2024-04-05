@@ -14,3 +14,4 @@ export const showLoader = async ({ params }) => {
     const apparelVar = await response.json()
     return apparelVar
 }
+
