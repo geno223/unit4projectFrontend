@@ -22,6 +22,11 @@ console.log(allApparel)
                 </label>
                 <button>Add</button>
             </Form>
+            
+
+
+        
+        <div className="navBar">
             <Link to='/hoodies'>
             <h2>Hoodies</h2>
             </Link>
@@ -31,6 +36,7 @@ console.log(allApparel)
             <Link to='/shirts'>
                 <h2>Shirts</h2>
             </Link>
+        </div>
             <h1>Index</h1>
             <hr />
             {allApparel.map((apparel, i) => <Apparel apparel={apparel} key={i}/>)}
