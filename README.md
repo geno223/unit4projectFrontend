@@ -4,7 +4,7 @@
 apparel.
 ## **Frontend (React App):**
 
-[Deployed]()
+[Deployed](https://resonant-fudge-af2b2f.netlify.app/)
 
 #### Libraries:
 - React
