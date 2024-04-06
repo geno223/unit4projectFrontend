@@ -13,7 +13,6 @@ export default function Show(props) {
                 Trash</button>
             </Form>
             
-            <h1>Add Your Own</h1>
             <Form action={`/update/${clothes.id}/`} method="POST">
                 <label htmlFor="clothes_type">
                     <input type="text" name="clothes_type" id="clothes_type" defaultValue={clothes.clothes_type} />

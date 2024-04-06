@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: blue;
+  color: rgba(243, 240, 240, 0.87);
+  background-color: rgb(105, 127, 241);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,6 +33,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: maroon;
 }
 
 button {
@@ -67,6 +68,3 @@ button:focus-visible {
   }
 }
 
-.navBar{
-  border: #1a1a1a;
-}

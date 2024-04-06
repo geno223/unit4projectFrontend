@@ -39,7 +39,7 @@ export const updateAction = async ({request, params}) => {
         clothes_image: formData.get("clothes_image"),
     }
     // send the request body to the backend
-    await fetch(`${URL}${id}/`, {
+    await fetch(`${URL}/outfits/${id}/`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -47,7 +47,7 @@ export const updateAction = async ({request, params}) => {
         body: JSON.stringify(updatedClothes)
     })
     // redirect to the Show page
-    return redirect(`/${id}`)
+    return redirect(`/apparel/${id}`)
 }
 
 // Delete Action rehome a clothes from a form submission to `delete/:id`
